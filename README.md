@@ -4,3 +4,5 @@ Exercício da contrstrução de um site para uma barbearia desenvolvido em HTML 
 Esse site conta com três páginas básicas: Home, Serviços e Contatos.
 
 Além da construção básica, conta exemplos para inserção de mapas e vídeos do YouTube. 
+
+https://otthonleao.github.io/site-barbearia/
