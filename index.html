@@ -1,0 +1,72 @@
+<DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"> <!--Para adaptar o conteúdo da página para o celular. Perguntaremos ao navegador qual é o tamanho da tela em questão e, se for aquele que desejamos, entregaremos o estilo correto. -->
+		<title>Barbearia Alura</title> <!-- Essa informação fica na aba do navegador -->
+		<link rel="stylesheet" href="scripts/reset.css"> <!-- Arquivo padrão obrigatório para tirar os estilos que o navegador cria automaticamente e acaba modificando o código, como por exemplo inserir margens. Ele sempre é o primeiro -->
+		<link rel="stylesheet" href="scripts/style.css"> <!-- relacionando essa página HTML a página do CSS que vai estilisar o conteúdo dessa página -->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> <!-- Tipo de fonte que será utilizado conectado direto no google fonts -->
+		
+	</head>
+
+	<body>
+		<header> <!-- Essa é a tag de configuração do menu principal -->
+			<div class="caixa">
+				<h1><img src="imagens/logo.png"></h1>
+				<nav> <!-- Essa tag simboliza que esse é o menu de navegação principal -->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contatos.html">Contatos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<img class="banner" src="imagens/banner.jpg" alt="Cadeira reclinável para barbearia">
+
+		<main>
+			<section class="principal"> <!-- Para um bloco onde o conteúdo tenha o mesmo significado, o mesmo sentido -->
+				<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+				<img class="utensilios" src="imagens/utensilios.jpg" alt="Utensílios utilizados pelos barbeiros">
+				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class="mapa">
+				<h2 class="titulo-principal">Nosso Estabelecimento</h2>
+				<p>Nosso estabelecimento está localizado no coração da cidade</p>
+
+				<div class="mapa-conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4104.267322900695!2d-46.63484116886633!3d-23.586878362862226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1586787764796!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</section>
+
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+
+				<div class="conteudo-beneficios">
+					<ul class="lista-beneficios">
+						<li class="itens">Atendimento ao Cliente</li>
+						<li class="itens">Espaço Diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="imagens/beneficios.jpg" alt="homem sentado enquanto o barbeiro utiliza a navalha para fazer a sua barba" class="imagem-beneficios">
+				</div>
+
+				<div class="video">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
+
+		<footer> <!-- Tag para o rodapé/fim da página -->
+			<img src="imagens/logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Alura 2020</p> <!-- Código para ter o símbolo. Consultar o unicode.com´para saber o código dos caracteres -->
+		</footer>
+	</body>
+</html>

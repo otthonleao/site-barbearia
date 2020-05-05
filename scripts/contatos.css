@@ -1,0 +1,115 @@
+header { 
+	background: #CCCCCC; /* Cor do fundo do menu principal em cinza */
+	padding: 20px 0; /* Espaçamento interno para que o conteúdo não chegue na margem */
+}
+
+.caixa{
+	position: relative; /* Inserir o menu dentro da caixa  */
+	width: 940px; /* Largura fixa. É um padrão para a maioria da Web */
+	margin: 0 auto; /* forma para centralizar o menu (x = pra cima e pra baixo, y = esquerda para direita) */
+}
+
+nav {
+	position: absolute; /* Nova posição absoluto em relação a página dos menus na área de navegação */
+	top: 110px;
+	right: 0px;
+}
+
+nav li {
+	display: inline; /* Coloca o texto que estava um em baixo do outro lado a lado */
+	margin: 0 0 0 15px; /* Espaçamento entre textos a esquerda */
+}
+
+nav a {
+	text-transform: uppercase; /* Deixa todas as letras em maiúsculas / caixa alta */
+	color: #000000; /* Cor do texto */
+	font-weight: bold; /* Negritar texto */
+	font-size: 22px; /* Tamanho da fonte. O padrão é sempre iniciar em 16px */
+	text-decoration: none; /* Tirar o sublinhado do texto que foi inserido automaticamente quando a palavra virou um link */
+}
+
+nav a:hover { /* Quando o mouse passar por cima dos links que estão dentro da parte de navegação */
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+main {
+	width: 940px; /* largura da página */
+	margin: 0 auto; /* margem 0 em cima e em baixo; auto nos lados para ficar centralizado */
+}
+
+form{
+	margin: 40px 0; /* Espaçamento superior dos formulários */
+}
+
+form label, form legend {
+	display: block; /* Faz com que o elemento que ta no lado vá para baixo  */
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.inputpadrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px; /* Altera o espaçamento interno entre o conteúdo e a borda */
+	width: 50%; /* Comprimento pra ocupar 50% da página que foi definida em 940px */
+}
+
+select {
+	font-size:18px;
+	padding: 5px 10px;
+}
+
+.checkbox {
+	margin:20px 0;
+	display: block;
+}
+
+.enviar {
+	width: 50%; /* Aumentando a largura na página */
+	padding: 15px 0; /* Aumentando o espaçamento entre texto central e a borda */
+	background: darkgrey; /* Cor de preenchimento */
+	color: white; /* Cor do texto */
+	font-size: 18px; 
+	font-weight: bold;
+	border: none; /* Tirar o contorno da borda  */
+	border-radius: 5px; /* Arrendodamento da borda */
+	transition: 0.5s all; /* Tempo de transição da cor quando o mouse passar por cima. No caso do all é para que todas as transformações utilizem esse tempo, mas poderia ser definido somente background */
+	cursor: pointer; /* mudar o ponteiro para a mãozinha quando o mouse passar por cima dessa área clicável */
+}
+
+.enviar:hover {
+	background: grey;
+	transform: scale(1.02); /* Aumentar um elemento proporcionalmente como destaque quando o mouse passar por cima */
+}
+
+.enviar:active {
+	background: darkgreen;
+}
+
+table {
+	margin: 20px 0 40px; /* 20 pra cima e 40 pra baixo. Espaçamento entre os campos do enviar formulário e o rodapé */
+}
+
+thead {
+	background: #555555; /* background do cabeçalho da tabela */
+	color: white; /* Cor do texto do cabeçalho */
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000; /* Espessura da borda; tipo de borda; cor da borda */
+	padding: 8px 15px; /* Espaço interno de cada célula */
+}
+
+footer {
+	text-align: center;
+	background: #001212; /* Para usar uma imagem deve ser: url("endereço da imagem.jpg"); */
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}

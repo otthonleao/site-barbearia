@@ -1,0 +1,90 @@
+header { 
+	background: #CCCCCC; /* Cor do fundo do menu principal em cinza */
+	padding: 20px 0; /* Espaçamento interno para que o conteúdo não chegue na margem */
+}
+
+.caixa{
+	position: relative; /* Inserir o menu dentro da caixa  */
+	width: 940px; /* Largura fixa. É um padrão para a maioria da Web */
+	margin: 0 auto; /* forma para centralizar o menu (x = pra cima e pra baixo, y = esquerda para direita) */
+}
+
+nav {
+	position: absolute; /* Nova posição absoluto em relação a página dos menus na área de navegação */
+	top: 110px;
+	right: 0px;
+}
+
+nav li {
+	display: inline; /* Coloca o texto que estava um em baixo do outro lado a lado */
+	margin: 0 0 0 15px; /* Espaçamento entre textos a esquerda */
+}
+
+nav a {
+	text-transform: uppercase; /* Deixa todas as letras em maiúsculas / caixa alta */
+	color: #000000; /* Cor do texto */
+	font-weight: bold; /* Negritar texto */
+	font-size: 22px; /* Tamanho da fonte. O padrão é sempre iniciar em 16px */
+	text-decoration: none; /* Tirar o sublinhado do texto que foi inserido automaticamente quando a palavra virou um link */
+}
+
+nav a:hover { /* Quando o mouse passar por cima dos links que estão dentro da parte de navegação */
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width:940px;
+	margin: 0 auto;
+	padding: 50px 0; /*Espaçamento pra cima e paraixo (x) e espaçamento para os lados (y)*/
+}
+
+.produtos li:hover { /* Ação quando o mouse passar por cima dos três produtos */
+	border-color: #C78C19; /* Quando o mouse passar por cima a cor da borda muda para dourado */
+}
+
+.produtos li:active { /* Ação quando clicar em um dos três produtos */
+	border-color: #088C19; /* Quando clicar a borda fica verde */
+}
+
+.produtos li:hover h2 { /* Ação no título que está dentro da listas quando o mouse passar por cima */
+	font-size: 34px; /* Quando o ponteiro passar o título vai aumentar a fonte */
+}
+
+.produtos li {
+	display: inline-block; /*O tamanho pode ser ajustado, tanto na largura, quanto na altura.*/
+	text-align: center;
+	width: 30%; /*Espaçamento horizontal ventre as listas*/
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px; /*O elemento aumenta o espaçamento interno*/
+	box-sizing: border-box; /* Deixa a largura de 30% definitivo*/
+	border: 2px solid #000000; /* Borda entre o padding e a margin: 'tamanho/espessura' 'tipo' 'cor'; */
+	border-radius: 10px; /*nesse caso arredonda todos os cantos com os mesmo angulos.*/
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px; /*Espaçamento entre a descrição e o preço */
+}
+
+footer {
+	text-align: center;
+	background: #001212; /* Para usar uma imagem deve ser: url("endereço da imagem.jpg"); */
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin 20px 0 0;
+}
