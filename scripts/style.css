@@ -144,8 +144,6 @@ nav a:hover { /* Quando o mouse passar por cima dos links que estão dentro da p
 	}
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
-		
-
 }
 
 footer {
@@ -157,5 +155,5 @@ footer {
 .copyright {
 	color: #FFFFFF;
 	font-size: 13px;
-	margin 20px 0 0;
+	margin: 20px 0 0;
 }
