@@ -130,6 +130,18 @@ nav a:hover { /* Quando o mouse passar por cima dos links que estão dentro da p
 	margin: 1em auto;
 }
 
+footer {
+	text-align: center;
+	background: #001212; /* Para usar uma imagem deve ser: url("endereço da imagem.jpg"); */
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
 @media screen and (max-width: 480px) { /*Media Queries: Precisamos entregar para telas até 480px um estilo diferente. É dentro dessa media query que criamos um estilo visual que compreenda telas de até 480px.*/
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto; /* Ajustanto todas as larguras que ultrapassam para caber na tela do celular */
@@ -146,14 +158,3 @@ nav a:hover { /* Quando o mouse passar por cima dos links que estão dentro da p
 		width: 100%;
 }
 
-footer {
-	text-align: center;
-	background: #001212; /* Para usar uma imagem deve ser: url("endereço da imagem.jpg"); */
-	padding: 40px 0;
-}
-
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
-}
